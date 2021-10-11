@@ -1,0 +1,32 @@
+=============== Oct 10, 2021 (EDT) ===============
+18:28:10.505924 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:28:10.513962 db@open opening
+18:28:10.514859 version@stat F·[] S·0B[] Sc·[]
+18:28:10.516599 db@janitor F·2 G·0
+18:28:10.516637 db@open done T·2.645488ms
+18:28:10.518031 db@close closing
+18:28:10.518130 db@close done T·97.529µs
+=============== Oct 10, 2021 (EDT) ===============
+18:41:16.265811 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:41:16.266093 version@stat F·[] S·0B[] Sc·[]
+18:41:16.266125 db@open opening
+18:41:16.266205 journal@recovery F·1
+18:41:16.273745 journal@recovery recovering @1
+18:41:16.276567 memdb@flush created L0@2 N·15 S·1KiB "H\xfen..\xf9\xf6\x86,v8":"\xf9.\x14..\xb2\xbey,v3"
+18:41:16.283977 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+18:41:16.294737 db@janitor F·3 G·0
+18:41:16.294774 db@open done T·28.63391ms
+19:00:49.909392 db@close closing
+19:00:49.909530 db@close done T·137.461µs
+=============== Oct 10, 2021 (EDT) ===============
+19:01:51.984137 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:01:51.984433 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+19:01:51.984465 db@open opening
+19:01:51.984553 journal@recovery F·1
+19:01:51.992559 journal@recovery recovering @3
+19:01:51.995748 memdb@flush created L0@5 N·57 S·2KiB "Dat..ion,v17":"\xba\x18\xc5..x\x8d\x90,v50"
+19:01:52.003522 version@stat F·[2] S·3KiB[3KiB] Sc·[0.50]
+19:01:52.017747 db@janitor F·4 G·0
+19:01:52.017788 db@open done T·33.307343ms
+19:03:23.801172 db@close closing
+19:03:23.801282 db@close done T·109.993µs
